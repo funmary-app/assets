@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="current/icon/svg/icon-dark.svg" />
-    <img src="current/icon/svg/icon-light.svg" alt="Funmary" width="160" />
+    <source media="(prefers-color-scheme: dark)" srcset="current/logo/svg/logo-dark-transparent.svg" />
+    <img src="current/logo/svg/logo-light-transparent.svg" alt="Funmary" width="360" />
   </picture>
 </div>
 
@@ -14,7 +14,7 @@
 
 ## 現在の版
 
-v3
+v3.1
 
 ## フォルダの構成
 
