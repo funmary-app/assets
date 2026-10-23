@@ -1,5 +1,8 @@
 <div align="center">
-  <img src="current/icon/svg/icon.svg" alt="Funmary" width="160" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="current/icon/svg/icon-dark.svg" />
+    <img src="current/icon/svg/icon-light.svg" alt="Funmary" width="160" />
+  </picture>
 </div>
 
 # Funmary assets
@@ -11,7 +14,7 @@
 
 ## 現在の版
 
-v1 (原案)
+v2
 
 ## フォルダの構成
 
