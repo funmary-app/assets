@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.png binary
+
+# Figma から書き出した SVG は 1 行が長く、行ごとの差分に意味がないので、差分を出さない
+*.svg -diff
+# GitHub の言語の判定 (Linguist) では SVG は data の種類で、そのままでは言語の割合に数えられないので、数えるように指定する
+# PNG はバイナリなので Linguist の判定の対象外で、指定しても数えられない
+*.svg linguist-detectable

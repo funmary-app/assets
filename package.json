@@ -1,0 +1,17 @@
+{
+	"name": "funmary-assets",
+	"private": true,
+	"type": "module",
+	"description": "Funmary のロゴとアイコンの画像",
+	"license": "SEE LICENSE IN LICENSE-ASSETS",
+	"scripts": {
+		"build": "node scripts/build.js",
+		"format": "prettier --write .",
+		"format:check": "prettier --check ."
+	},
+	"devDependencies": {
+		"@resvg/resvg-js": "^2.6.2",
+		"prettier": "^3.9.9",
+		"svgo": "^4.0.0"
+	}
+}

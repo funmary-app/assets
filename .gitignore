@@ -1,0 +1,39 @@
+# 依存
+node_modules/
+
+# npm のログとキャッシュ
+npm-debug.log*
+.npm/
+*.tgz
+
+# 手元の秘密の値
+.env
+.env.*
+
+# Figma から書き出したばかりの作業用のファイル。正しい名前で icon/svg と logo/svg に置いたものだけをコミットする
+/export/
+/tmp/
+*.fig
+
+# OS とエディタが作るファイル
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# 公開しない資料と、各自の手元の指示
+.private/
+CLAUDE.local.md
+AGENTS.local.md
+
+# AI エージェントの手元の設定
+.claude/
+.agent/
+.agents/*
+!.agents/skills/
+settings.local.json
